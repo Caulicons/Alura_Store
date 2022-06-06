@@ -1,0 +1,45 @@
+.cabecalho {
+    grid-area: cabecalho;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+} 
+
+.menu__link{
+    color: rgb(51, 51, 51);
+    font-size: 1.5rem;
+
+    margin-right: 2rem;
+    padding: 0 .5rem; 
+
+}
+
+.menu__link:hover, .ativo {
+    border-bottom: 3px solid rgb(0, 114, 230);
+}
+
+
+@media screen and (max-width: 778px){
+    .menu__lista {
+        text-align: center;
+        width: 100%;
+    } 
+
+    .cabecalho {
+        display: initial;
+    }
+
+    .menu__link {
+        margin: 0 1rem;
+
+    }
+}
+
+@media screen and (max-width: 520px){
+    .menu__link{
+        display:block;
+        margin-bottom: .5rem ;
+        text-align: initial;
+    }
+
+}

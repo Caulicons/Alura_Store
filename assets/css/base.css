@@ -1,0 +1,35 @@
+.app {
+    background: #f1f1f1;
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodape";
+    grid-template-rows: 90px auto auto;
+    padding: 0 2%;
+}
+
+.conteudo {
+    grid-area: conteudo;
+    grid-template-areas: 
+    "destaque"
+    "popular"; 
+    
+    max-width: 1440px;
+    justify-content: center;
+}
+@media screen and (max-width: 520px){
+    .app {
+        grid-template-rows: auto auto auto;
+    }
+    
+}
+
+
+
+
+ 
+
+
