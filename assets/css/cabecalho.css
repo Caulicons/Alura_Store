@@ -24,6 +24,10 @@
         text-align: center;
         width: 100%;
     } 
+    
+    .ativo {
+        width: 50%;
+    }
 
     .cabecalho {
         display: initial;
@@ -31,7 +35,7 @@
 
     .menu__link {
         margin: 0 1rem;
-
+        padding-bottom: .5rem
     }
 }
 
