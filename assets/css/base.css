@@ -9,6 +9,8 @@
     "rodape";
     grid-template-rows: 90px auto auto;
     padding: 0 2%;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .conteudo {
